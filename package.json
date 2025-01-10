@@ -1,6 +1,7 @@
 {
-  "name": "reactour-paa",
+  "name": "@postacuteanalytics/reactour-paa",
   "version": "1.0.4",
+  "license": "MIT",
   "description": "Tourist Guide into your React Components. This is a fork of reactour. It includes some improvements not yet in reactour including pre/post action functions and optinal dealy to wait for components to render.",
   "main": "dist/reactour.cjs.js",
   "module": "dist/reactour.esm.js",
@@ -14,7 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mokeefe-paa/reactour-paa.git"
+    "url": "git+https://github.com/postacuteanalytics/reactour-paa.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted"
   },
   "keywords": [
     "react",
@@ -34,11 +39,6 @@
     "dist",
     "README.md"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mokeefe-paa/reactour-paa/issues"
-  },
-  "homepage": "https://github.com/mokeefe-paa/reactour-paa#readme",
   "devDependencies": {
     "@babel/cli": "7.23.9",
     "@babel/core": "7.23.3",
@@ -81,5 +81,6 @@
     "react-focus-lock": "2.0.5",
     "scroll-smooth": "1.0.1",
     "scrollparent": "2.0.1"
-  }
+  },
+  "packageManager": "yarn@4.6.0"
 }
